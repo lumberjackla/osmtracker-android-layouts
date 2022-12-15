@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+	
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+
+		<row>
+			<button type="page" label="Unterflur" icon="unterflur.png" targetlayout="unterflurhyd"  />
+			<button type="page" label="Ueberflur" icon="ueberflur.png" targetlayout="ueberflurhyd"  />	
+		</row>
+		
+	</layout>
+	
+	<layout name="unterflurhyd">
+	
+		<row>
+			<button type="tag" label="Unterflur 10" icon="hydranten/hydrant_unterflur.png" />
+			<button type="tag" label="Unterflur 50" icon="hydranten/hydrant_unterflur.png" />
+			<button type="tag" label="Unterflur 80" icon="hydranten/hydrant_unterflur.png" />
+		</row>
+		<row>
+			<button type="tag" label="Unterflur 100" icon="hydranten/hydrant_unterflur.png" />
+			<button type="tag" label="Unterflur 125" icon="hydranten/hydrant_unterflur.png" />
+			<button type="tag" label="Unterflur 150" icon="hydranten/hydrant_unterflur.png" />
+		</row>
+		<row>
+			<button type="tag" label="Unterflur 200" icon="hydranten/hydrant_unterflur.png" />
+			<button type="tag" label="Unterflur 250" icon="hydranten/hydrant_unterflur.png" />
+			<button type="tag" label="Unterflur and" icon="hydranten/hydrant_unterflur.png" />
+		</row>	
+	</layout>
+	
+	<layout name="ueberflurhyd">
+		<row>
+			<button type="tag" label="Ueberflur 10" icon="hydranten/hydrant_ueberflur.png" />
+			<button type="tag" label="Ueberflur 50" icon="hydranten/hydrant_ueberflur.png" />
+			<button type="tag" label="Ueberflur 80" icon="hydranten/hydrant_ueberflur.png" />
+		</row>
+		<row>
+			<button type="tag" label="Ueberflur 100" icon="hydranten/hydrant_ueberflur.png" />
+			<button type="tag" label="Ueberflur 125" icon="hydranten/hydrant_ueberflur.png" />
+			<button type="tag" label="Ueberflur 150" icon="hydranten/hydrant_ueberflur.png" />
+		</row>
+		<row>
+			<button type="tag" label="Ueberflur 200" icon="hydranten/hydrant_ueberflur.png" />
+			<button type="tag" label="Ueberflur 250" icon="hydranten/hydrant_ueberflur.png" />
+			<button type="tag" label="Ueberflur and" icon="hydranten/hydrant_ueberflur.png" />
+		</row>		
+	</layout>
+</layouts>
